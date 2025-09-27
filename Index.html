@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antonello Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="Images/logo.svg" alt="Logo" width="150">
+    </div>
+    <button class="menu-btn" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <img src="Images/menu.svg" alt="Menu" id="menuIcon">
+    </button>
+  </header>
+
+<!-- Fullscreen Overlay Menu -->
+<div class="overlay" id="overlayMenu" aria-hidden="true">
+  <button class="overlay-close-btn" id="overlayClose">
+    <img src="Images/MenuClose.svg" alt="Close Menu">
+  </button>
+
+  <nav class="overlay-content" role="navigation" aria-label="Main menu">
+    <a href="#">Home</a>
+    <a href="#">Our Works</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+
+    <hr>
+
+    <div class="overlay-logos">
+      <img src="Images/LogoStar.svg" alt="Logo Star">
+      <img src="Images/Logo.svg" alt="Logo">
+    </div>
+  </nav>
+</div>
+  
+  <!-- Video Banner -->
+<section class="video-banner">
+  <video autoplay muted loop playsinline>
+    <source src="Videos/BannerVideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+<!-- Banner Content -->
+<div class="banner-content">
+  <h1 class="banner-text">
+    We help business <br>
+    Look good, Reach right, and <br>
+    Stand out
+  </h1>
+
+ <!-- CTA Buttons -->
+  <div class="banner-buttons" style="margin-top: 40px;">
+    <button class="btn primary">Our Works</button>
+    <button class="btn secondary">Contact Us</button>
+  </div>
+</div>
+
+<!-- Our Services Section -->
+<section class="our-services">
+  <h2>Our Services</h2>
+</section>
+
+<!-- Services Boxes -->
+<section class="services-grid">
+  <!-- Box 1 -->
+  <div class="service-box">
+    <img src="Images/Brand Strategy Icon.svg" alt="Brand Strategy Icon" class="service-icon">
+    <h3 class="service-title">Brand Strategy</h3>
+  </div>
+
+  <div class="service-box">
+    <img src="Images/Brand Identity Icon.svg" alt="Brand Strategy Icon" class="service-icon">
+    <h3 class="service-title">Brand Identity</h3>
+  </div>
+
+  <div class="service-box">
+    <img src="Images/Marketing Strategy Icon.svg" alt="Brand Strategy Icon" class="service-icon">
+    <h3 class="service-title">Marketing Strategy</h3>
+  </div>
+
+  <div class="service-box">
+    <img src="Images/Marketing Execution Icon.svg" alt="Brand Strategy Icon" class="service-icon">
+    <h3 class="service-title">Marketing Execution</h3>
+  </div>
+</section>
+
+<!-- Our Works Section -->
+<section class="our-services">
+  <h2>Our Works</h2>
+</section>
+
+<!-- HTML (unchanged) -->
+<section class="portfolio-box">
+  <div class="portfolio-item">
+    <img src="Portfolio Designs/Cover 01.webp" alt="Portfolio 1">
+  </div>
+  <div class="portfolio-item">
+    <img src="Portfolio Designs/Cover 02.webp" alt="Portfolio 2">
+  </div>
+  <div class="portfolio-item">
+    <img src="Portfolio Designs/Cover 03.jpg" alt="Portfolio 3">
+  </div>
+  <div class="portfolio-item">
+    <img src="Portfolio Designs/Cover 04.png" alt="Portfolio 4">
+  </div>
+  <div class="portfolio-item">
+    <img src="Portfolio Designs/Cover 05.png" alt="Portfolio 5">
+  </div>
+  <div class="portfolio-item">
+    <img src="Portfolio Designs/Cover 06.png" alt="Portfolio 6">
+  </div>
+</section>
+
+<section class="portfolio-description">
+  <p>
+    <br>Since 2016, we’ve created 100+ brands worldwide, from startups to established businesses exploring the future of design with AI-powered generative tools, while preparing to grow into a multidisciplinary team<br>
+    <br>We believe great design is not about trends, it's about clarity, consistency, and emotional connection. With AI-assisted creativity, we can now go beyond traditional design workflows, combining human judgment with generative possibilities.<br>
+    <br>We work at the intersection of branding, storytelling, and technology. Our focus is to help businesses simplify complexity and communicate clearly.
+  </p>
+</section>
+
+<!-- ✅ Footer -->
+<section class="collaborate-section">
+  <h2>Let’s Collaborate</h2>
+</section>
+
+<section class="dummy-boxes">
+  <div class="dummy-box">
+    <span>Welcome<br>to the Club!</span>
+  </div>
+  <div class="dummy-box">
+    <span>Send a Brief @<br>dinu@antonello.in</span>
+  </div>
+  <div class="dummy-box">
+    <span>
+      <a href="https://www.facebook.com/antonello.studio" target="_blank" rel="noopener noreferrer">
+        Facebook<br>
+      <a href="https://www.instagram.com/antonello.studio/#" target="_blank" rel="noopener noreferrer">
+        Instagram<br>
+      </a>
+    </span>
+  </div>
+  <div class="dummy-box">
+    <span>
+      Wanna Join?<br>
+      <a href="https://www.linkedin.com/company/antonello-studio" target="_blank" rel="noopener noreferrer">
+        Check our Linkedin
+      </a>
+    </span>
+  </div>
+  <div class="dummy-box">
+    <span>Reach us @<br>+91 89044 31042<br>Bangalore, India</span>
+  </div>
+</section>
+
+<section class="logo-section">
+  <img src="Images/LogoStar.svg" alt="Logo Star" class="logo-star">
+  <img src="Images/Logo.svg" alt="Logo" class="logo-main">
+</section>
+
+<section class="footer-texts">
+  <p>© Antonello Studio (P) Ltd 2016 - 2025</p>
+  <p>#Branding</p>
+  <p>#Marketing</p>
+</section>
+
+
+  <!-- ✅ Shared JS -->
+  <script src="script.js"></script>
+</body>
+</html>
+
