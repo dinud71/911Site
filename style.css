@@ -19,21 +19,24 @@ html, body {
 /* Font Faces */
 @font-face {
   font-family: 'DentonTextBlack';
-  src: url('fonts/DentonTextTest-Black.otf') format('opentype');
+  src: url('fonts/DentonTextTest-Black.woff2') format('woff2'),
+       url('fonts/DentonTextTest-Black.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'DentonCondensed';
-  src: url('fonts/DentonCondensedTest-Regular.otf') format('opentype');
+  src: url('fonts/DentonCondensedTest-Regular.woff2') format('woff2'),
+       url('fonts/DentonCondensedTest-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Dexton';
-  src: url('fonts/DentonTextTest-Black.otf') format('opentype');
+  src: url('fonts/DentonTextTest-Black.woff2') format('woff2'),
+       url('fonts/DentonTextTest-Black.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -380,3 +383,4 @@ header.scrolled {
 .footer-texts p { font-size:16px; font-family:'DentonCondensed',sans-serif; color:#fff; margin:0; }
 
 .dummy-box a, footer a { color:#fff !important; text-decoration:none !important; outline:none !important; border:none !important; background:none !important; box-shadow:none !important; }
+
