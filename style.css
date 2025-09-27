@@ -35,8 +35,8 @@ html, body {
 
 @font-face {
   font-family: 'Dexton';
-  src: url('fonts/DentonTextTest-Black.woff2') format('woff2'),
-       url('fonts/DentonTextTest-Black.woff') format('woff');
+  src: url('Fonts/DentonTextTest-Black.woff2') format('woff2'),
+       url('Fonts/DentonTextTest-Black.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -383,5 +383,6 @@ header.scrolled {
 .footer-texts p { font-size:16px; font-family:'DentonCondensed',sans-serif; color:#fff; margin:0; }
 
 .dummy-box a, footer a { color:#fff !important; text-decoration:none !important; outline:none !important; border:none !important; background:none !important; box-shadow:none !important; }
+
 
 
