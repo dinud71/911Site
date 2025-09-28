@@ -294,6 +294,18 @@ a:hover {
   text-align: center;
 }
 
+/* Chrome, Edge, Safari */
+::selection {
+  background: #ff4d4d; /* highlight background */
+  color: #000000;      /* text color */
+}
+
+/* Firefox */
+::-moz-selection {
+  background: #ff4d4d;
+  color: #000000;
+}
+
 /* =========================
    Portfolio / Projects
 ========================= */
@@ -388,6 +400,7 @@ a:hover {
 .footer-texts p { font-size:16px; font-family:'DentonCondensed',sans-serif; color:#fff; margin:0; }
 
 .dummy-box a, footer a { color:#fff !important; text-decoration:none !important; outline:none !important; border:none !important; background:none !important; box-shadow:none !important; }
+
 
 
 
