@@ -240,6 +240,11 @@ header.scrolled {
   flex-shrink: 0;
 }
 
+button:hover,
+a:hover {
+  cursor: url("Images/Hand.svg") 16 0, pointer; /* adjust path + hotspot (x y) */
+}
+
 .btn.primary { background-color: rgb(255,115,0); color: #242424; }
 .btn.secondary {
   background-color: rgba(255,255,255,0.1);
@@ -383,6 +388,7 @@ header.scrolled {
 .footer-texts p { font-size:16px; font-family:'DentonCondensed',sans-serif; color:#fff; margin:0; }
 
 .dummy-box a, footer a { color:#fff !important; text-decoration:none !important; outline:none !important; border:none !important; background:none !important; box-shadow:none !important; }
+
 
 
 
